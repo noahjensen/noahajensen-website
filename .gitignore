@@ -1,22 +1,76 @@
-# Folder view configuration files
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### macOS ###
+# General
 .DS_Store
-Desktop.ini
+.AppleDouble
+.LSOverride
 
-# Thumbnail cache files
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
 ._*
-Thumbs.db
 
-# Files that might appear on external disks
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
+.TemporaryItems
 .Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Compiled Python files
-*.pyc
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Compiled C++ files
-*.out
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+<<<<<<< HEAD:~:.gitignore
+# Windows shortcuts
+*.lnk
+=======
 # Application specific files
 venv
 node_modules
 .sass-cache
+>>>>>>> 2fa7a6c7e397149b0c140621cb89ce81e11a20c8:.gitignore
